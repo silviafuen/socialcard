@@ -1,0 +1,86 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Shrikhand&display=swap");
+
+body {
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #555555;
+  background: #FCFCFD;
+}
+
+h1 {
+  font-family: Shrikhand;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 72px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  color: #381D1D;
+}
+
+.lower {
+  top: 8em;
+}
+
+.card {
+  padding: 3em;
+  background: #FCFCFD;
+  border: 2px solid #E76559;
+  box-sizing: border-box;
+  box-shadow: 9px 9px 0px #FFA9A1;
+}
+
+.divider {
+  border: 1px solid #381D1D;
+  margin-bottom: 2em;
+}
+
+.icon {
+  text-align:center;
+  text-decoration: none;
+  background: #E7655A;
+  padding: 1em;
+  border-radius: 3em;
+  margin-bottom: 1em;
+}
+
+.icon:hover {
+  text-align:center;
+  text-decoration: none;
+  background: #E7655A;
+  padding: 1em;
+  border-radius: 3em;
+  margin-bottom: 1em;
+  border: 6px solid #FFA9A1;
+  /*box-shadow: 6px 4px 0px #FFA9A1;*/
+}
+
+.icon-set {
+  padding-top: 2em;
+}
+i {
+  text-align:center;
+  font-size:1.5em;
+}
+
+a,
+a:hover {
+    font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+}
+
+
