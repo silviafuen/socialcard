@@ -3,8 +3,7 @@ Landing page with all my social profiles - @silviafuen	This is a landing page wi
 
 Built using:
 
-- Skeleton Framework
+- Primitive Framework
 - Google Fonts
 - Font Awesome Icons
 - Figma for Design Mockups
-- Pinterest for Inspiration
