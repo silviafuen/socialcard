@@ -21,6 +21,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+  @import url('https://fonts.googleapis.com/css2?family=Corben&family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Rowdies:wght@700&display=swap');
 
 html {
@@ -375,7 +377,7 @@ figure {
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font: normal normal normal 1rem/1.6 'Abel', sans-serif;
+  font: normal normal normal 1rem/1.6 'Corben', serif;
   font-size: 1rem;
 }
 
@@ -407,8 +409,8 @@ h3,
 h4,
 h5 {
   margin: 1.5rem 0;
-  font-weight: 600;
-  font-family: 'Rowdies', cursive;
+  font-weight: 300;
+  font-family: 'DM Sans', sans-serif;
   line-height: 1.2;
   color: #F2EEEA;
 }
