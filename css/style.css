@@ -21,9 +21,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-  @import url('https://fonts.googleapis.com/css2?family=Corben&family=DM+Sans:opsz,wght@9..40,300&display=swap');
-
- @import url('https://fonts.googleapis.com/css2?family=Abel&family=Rowdies:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
 
 html {
   line-height: 1.15;
@@ -382,8 +380,8 @@ html {
 }
 
 body {
-  color: #2A553B;
-  background: #36BA5B;
+  color: #2B303A;
+  background: #EDE2CC;
   font-size: 1.2rem;
 }
 
@@ -410,9 +408,9 @@ h4,
 h5 {
   margin: 1.5rem 0;
   font-weight: 300;
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Quattrocento', serif;
   line-height: 1.2;
-  color: #F2EEEA;
+  color: #2B303A;
 }
 
 h1:not(:first-child),
@@ -475,7 +473,7 @@ h5 {
 }
 
 a {
-  color: #2A553B;
+  color: #2B303A;
   text-decoration: underline;
 }
 
@@ -510,13 +508,13 @@ pre {
   padding: 1rem;
   tab-size: 2;
   color: #404040;
-  font-family: Menlo, monospace;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   margin: 0 0 1.5rem 0;
 }
 
 pre code {
-  font-family: Menlo, monospace;
+  font-family: 'Quattrocento', serif;
   line-height: 1.2;
 }
 
@@ -527,7 +525,7 @@ kbd {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
   color: #333;
   display: inline-block;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Quattrocento', serif;
   font-size: 13px;
   line-height: 1.4;
   margin: 0 0.1em;
@@ -538,7 +536,7 @@ kbd {
 :not(pre) > code {
   color: #404040;
   background: transparent;
-  font-family: Menlo, monospace;
+  font-family: 'Quattrocento', serif;
   font-size: 14px;
   padding: 0 0.2rem;
   border: 1px solid #dedede;
