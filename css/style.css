@@ -1,7 +1,7 @@
-/*!
+/*! 
  * Primitive UI | MIT License
  *
- * A minimalist front-end design toolkit built with Sass for developing
+ * A minimalist front-end design toolkit built with Sass for developing 
  * responsive, browser-consistent web apps.
  *
  * Author: Tania Rascia <hello@taniarascia.com>
@@ -20,9 +20,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-
-  @import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
-
 html {
   line-height: 1.15;
   /* 1 */
@@ -39,6 +36,7 @@ body {
   margin: 0;
 }
 
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -51,7 +49,6 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -75,7 +72,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Quattrocento', serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -118,7 +115,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Quattrocento', serif;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -375,14 +372,18 @@ figure {
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font: normal normal normal 1rem/1.6 'Corben', serif;
+  font: normal normal normal 1rem/1.6 -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 
 body {
-  color: #2B303A;
-  background: #EDE2CC;
-  font-size: 1.2rem;
+  color: #EDE6CC;
+  background: #5E8C61;
+  background-image: url('file:///Users/silviafuentes/Documents/nimadre/background.png');
+  background-repeat: repeat;
+  background-blend-mode: lighten;
+  font-size: 1.15rem;
+  font-family: 'Quattrocento', serif;
 }
 
 p,
@@ -407,10 +408,10 @@ h3,
 h4,
 h5 {
   margin: 1.5rem 0;
-  font-weight: 300;
+  font-weight: 700;
   font-family: 'Quattrocento', serif;
   line-height: 1.2;
-  color: #2B303A;
+  color: #EDE6CC;
 }
 
 h1:not(:first-child),
@@ -428,8 +429,7 @@ h3:not(:first-child) {
 }
 
 h1 {
-  text-transform:uppercase;
-  font-size: 1.75rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -455,8 +455,7 @@ h5 {
     margin-top: 2.5rem;
   }
   h1 {
-    text-transform:uppercase;
-    font-size: 2.25rem;
+    font-size: 3rem;
   }
   h2 {
     font-size: 2rem;
@@ -473,12 +472,12 @@ h5 {
 }
 
 a {
-  color: #2B303A;
+  color: #EDE6CC;
   text-decoration: underline;
 }
 
 a:hover, a:active, a:focus {
-  color: #000000;
+  color: #2B303A;
   text-decoration: underline;
 }
 
@@ -550,7 +549,7 @@ hr {
 }
 
 dt {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 dd {
@@ -790,8 +789,8 @@ dd {
   border-radius: 4px;
   background: #0366ee;
   color: #ffffff;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-family: 'Quattrocento', serif;
   font-size: 1rem;
   text-transform: none;
   padding: 0.75rem 1.25rem;
@@ -910,7 +909,7 @@ fieldset {
 
 legend {
   padding: 0 0.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 select {
@@ -1023,20 +1022,7 @@ caption {
   .contain-table {
     width: 100%;
   }
-
 }
-
-/*
-*div seperator
-*/
-#big-div {
-  /*border-top: .8rem dotted #36BA5B;*/
-  border-top: 1rem solid #E26037;
-}
-#filler {
-  height: 12rem;
-}
-
 
 /*
  * Navigation
